@@ -2288,7 +2288,7 @@ export async function chatWoot(req: Request, res: Response): Promise<any> {
               await client.sendPtt(
                 `${contato}`,
                 base_url,
-                'Voice Audio',
+                'file',
                 message.content
               );
             } else {
